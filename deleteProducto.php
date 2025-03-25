@@ -8,7 +8,7 @@ $response = array();
 
 if(mysqli_query($conn, $sql)) {
     $response['status'] = 'success';
-    $response['message'] = 'Producto borrado exitosamente';
+    $response['message'] = 'Felicidades borrado exitosamente';
 } else {
     $response['status'] = 'error';
     $response['message'] = 'Error al borrar el producto: ' . mysqli_error($conn);
