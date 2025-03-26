@@ -3,7 +3,7 @@ include('conexion.php');
 $query = 'SELECT * FROM Producto';
 $result = mysqli_query($conn, $query);
 ?>
-<table class="table table-hover">
+<table class="table table-hover" data-info="Tabla con contenido de la base de datos">
     <thead>
         <tr class="table-dark">
             <th>No Producto</th>
