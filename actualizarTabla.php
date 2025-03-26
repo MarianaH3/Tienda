@@ -12,7 +12,7 @@ $result = mysqli_query($conn, $query);
             <th>Unidades del producto</th>
             <th>Descripción del producto</th>
             <th>Actualizar</th>
-            <th>Eliminar</th>
+            <th>Liliana De Jesus Hernandez Cruz</th>
         </tr>
     </thead>
     <tbody>
